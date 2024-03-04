@@ -4055,9 +4055,134 @@
 			)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 96.52 76.2)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 26 1)
+		)
+		(fill
+			(type color)
+			(color 106 244 252 0.14)
+		)
+		(uuid 2b2e4d16-3a6c-4b21-93f5-da1cc01914cd)
+	)
+	(rectangle
+		(start 177.8 88.9)
+		(end 284.48 165.1)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 26 1)
+		)
+		(fill
+			(type color)
+			(color 106 244 252 0.14)
+		)
+		(uuid 79bae55d-e21f-4ade-83c6-c4ec852185b2)
+	)
+	(rectangle
+		(start 12.7 88.9)
+		(end 165.1 196.85)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 26 1)
+		)
+		(fill
+			(type color)
+			(color 106 244 252 0.14)
+		)
+		(uuid 98ab274c-e6d8-46c6-8afc-124d591a7cdc)
+	)
+	(rectangle
+		(start 177.8 12.7)
+		(end 284.48 76.2)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 26 1)
+		)
+		(fill
+			(type color)
+			(color 106 244 252 0.14)
+		)
+		(uuid a75262f6-27de-49c0-a969-555719f60d2c)
+	)
+	(rectangle
+		(start 99.06 12.7)
+		(end 165.1 76.2)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 26 1)
+		)
+		(fill
+			(type color)
+			(color 106 244 252 0.14)
+		)
+		(uuid d1bc6378-555e-473a-9519-7dfcc0223743)
+	)
+	(text "Power Supply\nPower IC : Regulate input voltage to a stable 3.3 output"
+		(exclude_from_sim no)
+		(at 13.208 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "11d17198-1639-4bd7-8d7e-7c1ceedaeb46")
+	)
+	(text "Switch Buttons"
+		(exclude_from_sim no)
+		(at 99.568 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3aaad843-197f-459a-80ef-5dbcda3a97bb")
+	)
+	(text "Switch Buttons"
+		(exclude_from_sim no)
+		(at 178.054 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4356b89d-1e9e-4bb2-8dc6-a5bef80fb11f")
+	)
+	(text "Micro USB - 5V - USB-UART\npower, programing, debugging, serial communication"
+		(exclude_from_sim no)
+		(at 12.954 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93830107-593b-42e1-880f-5da4a75ca971")
+	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 178.308 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ad1bf337-4890-4540-8d38-2df2835d7455")
+	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 34.29 177.8 90)
+		(at 19.05 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,7 +4191,7 @@
 		(fields_autoplaced yes)
 		(uuid "0732644d-ce32-4110-8b86-bfa40a8ba022")
 		(property "Reference" "D1"
-			(at 38.1 178.1174 90)
+			(at 22.86 53.6574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4200,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 38.1 180.6574 90)
+			(at 22.86 56.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4209,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 34.29 177.8 0)
+			(at 19.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 177.8 0)
+			(at 19.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4227,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode : Red"
-			(at 34.29 177.8 0)
+			(at 19.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4236,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 34.29 177.8 0)
+			(at 19.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4260,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 67.31 109.22 0)
+		(at 39.37 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4143,7 +4268,7 @@
 		(dnp no)
 		(uuid "11451e42-589a-45aa-a827-a97cbddd16bd")
 		(property "Reference" "C1"
-			(at 71.12 107.9499 0)
+			(at 43.18 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4277,7 @@
 			)
 		)
 		(property "Value" "22uF{slash}10V{20%}"
-			(at 71.12 110.4899 0)
+			(at 43.18 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 68.2752 113.03 0)
+			(at 40.3352 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 109.22 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4304,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 67.31 109.22 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4313,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 67.31 114.3 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 184.15 0)
+		(at 217.17 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4220,7 +4345,7 @@
 		(dnp no)
 		(uuid "19a6f1ea-4255-44b9-9725-c8f72fa3e1eb")
 		(property "Reference" "C22"
-			(at 83.82 182.8799 0)
+			(at 220.98 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4354,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V{10%}"
-			(at 83.82 185.4199 0)
+			(at 220.98 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4363,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 80.9752 187.96 0)
+			(at 218.1352 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 184.15 0)
+			(at 217.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4381,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 184.15 0)
+			(at 217.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4390,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 80.01 190.5 0)
+			(at 217.17 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,16 +4414,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 115.57 157.48 0)
+		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ecc9a08-a1d9-4d9c-a0b1-fac5b3368e83")
 		(property "Reference" "SW1"
-			(at 115.57 149.86 0)
+			(at 111.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4430,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 115.57 152.4 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4438,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 115.57 152.4 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 152.4 0)
+			(at 111.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4456,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 115.57 157.48 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4465,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 115.57 157.48 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4489,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x19_Pin")
-		(at 226.06 139.7 0)
+		(at 229.87 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4374,7 +4498,7 @@
 		(fields_autoplaced yes)
 		(uuid "23cce490-ea77-49bf-96d3-eb3ed3b9dea8")
 		(property "Reference" "J3"
-			(at 226.695 111.76 0)
+			(at 230.505 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4506,7 @@
 			)
 		)
 		(property "Value" "Conn_01x19_Pin"
-			(at 226.695 114.3 0)
+			(at 230.505 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4514,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
-			(at 226.06 139.7 0)
+			(at 229.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 139.7 0)
+			(at 229.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4532,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x19, script generated"
-			(at 226.06 139.7 0)
+			(at 229.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4541,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 226.06 139.7 0)
+			(at 229.87 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 59.69 0)
+		(at 29.21 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4500,26 +4624,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a59cd2-61d2-4d73-b598-710f66e7434a")
-		(property "Reference" "R19"
-			(at 54.61 58.4199 0)
+		(property "Reference" "R17"
+			(at 29.21 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0R(5%)"
-			(at 54.61 60.9599 0)
+			(at 29.21 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 50.292 59.69 90)
+			(at 29.21 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 59.69 0)
+			(at 29.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4659,7 @@
 			)
 		)
 		(property "Description" "Resistor (Chip Resistors)"
-			(at 52.07 59.69 0)
+			(at 29.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4668,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 52.07 59.69 0)
+			(at 29.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4684,7 @@
 		(instances
 			(project "ESP32_Dev_Borad"
 				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4692,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 57.15 0)
+		(at 29.21 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4579,25 +4701,23 @@
 		(fields_autoplaced yes)
 		(uuid "29fa7aff-dbcb-4575-aa1e-820b1423d06b")
 		(property "Reference" "R21"
-			(at 86.36 55.8799 0)
+			(at 29.21 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10K(5%)"
-			(at 86.36 58.4199 0)
+			(at 29.21 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 82.042 57.15 90)
+			(at 29.21 175.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 57.15 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4735,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 57.15 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4744,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 83.82 57.15 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,15 +4768,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 113.03 0)
+		(at 71.12 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4bc37f-10ee-49f9-ac2e-bafec5de3fe3")
-		(property "Reference" "C2"
-			(at 93.98 111.7599 0)
+		(property "Reference" "C3"
+			(at 74.93 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4785,7 @@
 			)
 		)
 		(property "Value" "22uF{slash}10V{20%}"
-			(at 93.98 114.2999 0)
+			(at 74.93 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +4794,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 91.1352 116.84 0)
+			(at 72.0852 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 113.03 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4812,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 113.03 0)
+			(at 71.12 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4821,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 90.17 118.11 0)
+			(at 71.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4837,7 @@
 		(instances
 			(project "ESP32_Dev_Borad"
 				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4845,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 67.31 0)
+		(at 144.78 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4734,7 +4854,7 @@
 		(fields_autoplaced yes)
 		(uuid "385d5c93-c12c-463d-964d-783ddc36fc2e")
 		(property "Reference" "R23"
-			(at 93.98 66.0399 0)
+			(at 147.32 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4863,7 @@
 			)
 		)
 		(property "Value" "10K(5%)(NC)"
-			(at 93.98 68.5799 0)
+			(at 147.32 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4872,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 89.662 67.31 90)
+			(at 143.002 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 67.31 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4890,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 67.31 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4899,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 91.44 67.31 0)
+			(at 144.78 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4923,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 180.34 0)
+		(at 152.4 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4811,7 +4931,7 @@
 		(dnp no)
 		(uuid "3a1f2702-0c85-48c6-8eaf-4d82b74c8b4f")
 		(property "Reference" "C20"
-			(at 125.73 179.0699 0)
+			(at 156.21 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4940,7 @@
 			)
 		)
 		(property "Value" "4.7uF/6.3V{10%}"
-			(at 125.73 181.6099 0)
+			(at 161.544 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4949,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 122.8852 184.15 0)
+			(at 153.3652 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 180.34 0)
+			(at 152.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4967,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 180.34 0)
+			(at 152.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4976,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 121.92 186.69 0)
+			(at 148.59 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5000,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 58.42 0)
+		(at 193.04 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4889,7 +5009,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c9fbd0d-7171-476c-8001-8803f5e413d8")
 		(property "Reference" "R11"
-			(at 73.66 57.1499 0)
+			(at 195.58 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +5018,7 @@
 			)
 		)
 		(property "Value" "10K(5%)"
-			(at 73.66 59.6899 0)
+			(at 195.58 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +5027,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 69.342 58.42 90)
+			(at 191.262 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 58.42 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5045,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 58.42 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5054,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 71.12 58.42 0)
+			(at 193.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,77 +5078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59874306-d168-4edc-a5c0-ecb88ea14301")
-		(property "Reference" "R9"
-			(at 36.83 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 36.83 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.512 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bea05748-bb8d-4316-a2c3-a7b98d9091c5")
-		)
-		(pin "2"
-			(uuid "c644d7d5-c1e2-4a40-91c6-e28993da81f1")
-		)
-		(instances
-			(project "ESP32_Dev_Borad"
-				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 40.64 60.96 0)
+		(at 29.21 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5037,25 +5087,23 @@
 		(fields_autoplaced yes)
 		(uuid "599d3392-abb0-4a8d-8ab7-50f5670bde69")
 		(property "Reference" "R18"
-			(at 43.18 59.6899 0)
+			(at 29.21 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "0R(5%)"
-			(at 43.18 62.2299 0)
+			(at 29.21 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 38.862 60.96 90)
+			(at 29.21 161.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 60.96 0)
+			(at 29.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5121,7 @@
 			)
 		)
 		(property "Description" "Resistor (Chip Resistors)"
-			(at 40.64 60.96 0)
+			(at 29.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5130,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 40.64 60.96 0)
+			(at 29.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5154,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 26.67 30.48 0)
+		(at 21.59 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5114,7 +5162,7 @@
 		(dnp no)
 		(uuid "5bd4dc14-3427-4db6-8ad3-212ae3930f0f")
 		(property "Reference" "J1"
-			(at 26.67 17.78 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5170,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 26.67 20.32 0)
+			(at 21.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5178,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Micro-AB_Molex_47590-0001"
-			(at 30.48 31.75 0)
+			(at 25.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 31.75 0)
+			(at 25.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5196,7 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
-			(at 26.67 30.48 0)
+			(at 21.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,8 +5204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "Micro USB for power, programing, debugging, serial communication"
-			(at 25.4 44.45 0)
+		(property "Purpose" ""
+			(at 20.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5241,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x19_Pin")
-		(at 247.65 139.7 0)
+		(at 251.46 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5202,7 +5250,7 @@
 		(fields_autoplaced yes)
 		(uuid "5edec833-d634-4a54-8a43-393088696c98")
 		(property "Reference" "J2"
-			(at 248.285 111.76 0)
+			(at 252.095 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5258,7 @@
 			)
 		)
 		(property "Value" "Conn_01x19_Pin"
-			(at 248.285 114.3 0)
+			(at 252.095 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5266,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical"
-			(at 247.65 139.7 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 139.7 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5284,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x19, script generated"
-			(at 247.65 139.7 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5293,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 247.65 139.7 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5368,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 162.56 0)
+		(at 193.04 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5328,7 +5376,7 @@
 		(dnp no)
 		(uuid "8a9fed47-54a8-4877-bfb7-811a6666dcb1")
 		(property "Reference" "C9"
-			(at 83.82 161.2899 0)
+			(at 196.85 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5385,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V{10%}"
-			(at 83.82 163.8299 0)
+			(at 196.85 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5394,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 80.9752 166.37 0)
+			(at 194.0052 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5403,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 162.56 0)
+			(at 193.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5412,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 162.56 0)
+			(at 193.04 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5421,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 80.01 168.91 0)
+			(at 193.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5445,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 27.94 71.12 0)
+		(at 68.58 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5406,25 +5454,23 @@
 		(fields_autoplaced yes)
 		(uuid "98fe4eb7-5bad-4c3e-85d6-ab895dc2f4ce")
 		(property "Reference" "R24"
-			(at 30.48 69.8499 0)
+			(at 68.58 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2K(5%)"
-			(at 30.48 72.3899 0)
+			(at 68.58 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 26.162 71.12 90)
+			(at 68.58 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 71.12 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5488,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 27.94 71.12 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5497,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 27.94 71.12 0)
+			(at 68.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5521,7 @@
 	)
 	(symbol
 		(lib_id "dk_RF-Transceiver-Modules:ESP32-WROOM-32")
-		(at 123.19 31.75 0)
+		(at 252.73 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5484,7 +5530,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2620357-e7ee-4171-9682-7bee3b888406")
 		(property "Reference" "MOD1"
-			(at 130.4641 26.67 0)
+			(at 260.0041 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5493,7 +5539,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32"
-			(at 130.4641 29.21 0)
+			(at 260.0041 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5502,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:ESP32-WROOM-32D"
-			(at 128.27 26.67 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5512,7 +5558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
-			(at 128.27 24.13 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5522,7 +5568,7 @@
 			)
 		)
 		(property "Description" "SMD MODULE, ESP32-D0WDQ6, 32MBIT"
-			(at 128.27 6.35 0)
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5532,7 +5578,7 @@
 			)
 		)
 		(property "MPN" "ESP32-WROOM-32"
-			(at 128.27 19.05 0)
+			(at 257.81 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5542,7 +5588,7 @@
 			)
 		)
 		(property "Category" "RF/IF and RFID"
-			(at 128.27 16.51 0)
+			(at 257.81 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5552,7 +5598,7 @@
 			)
 		)
 		(property "Family" "RF Transceiver Modules"
-			(at 128.27 13.97 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5562,7 +5608,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
-			(at 128.27 11.43 0)
+			(at 257.81 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5572,7 +5618,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305"
-			(at 128.27 8.89 0)
+			(at 257.81 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5582,7 +5628,7 @@
 			)
 		)
 		(property "Manufacturer" "Espressif Systems"
-			(at 128.27 3.81 0)
+			(at 257.81 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5592,7 +5638,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 128.27 1.27 0)
+			(at 257.81 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5729,7 +5775,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 50.8 26.67 180)
+		(at 41.91 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,7 +5784,7 @@
 		(fields_autoplaced yes)
 		(uuid "a603c505-c6eb-4a5a-bd38-2454c95deda6")
 		(property "Reference" "D3"
-			(at 51.1175 20.32 0)
+			(at 42.2275 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5792,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 51.1175 22.86 0)
+			(at 42.2275 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5800,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 50.8 26.67 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 26.67 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5818,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 50.8 26.67 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5827,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 50.8 26.67 0)
+			(at 41.91 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5851,7 @@
 	)
 	(symbol
 		(lib_id "CP2102N-A01-GQFN28:CP2102N-A01-GQFN28")
-		(at 240.03 60.96 0)
+		(at 101.6 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5813,7 +5859,7 @@
 		(dnp no)
 		(uuid "b26bd7c2-2ef5-46ab-a804-131c0a27441d")
 		(property "Reference" "U1"
-			(at 240.03 25.4 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5867,7 @@
 			)
 		)
 		(property "Value" "CP2102N-A01-GQFN28"
-			(at 240.03 27.94 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" "CP2102N-A01-GQFN28:QFN50P500X500X80-29N"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5903,7 @@
 			)
 		)
 		(property "MF" "Silicon Labs"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5913,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5923,7 @@
 			)
 		)
 		(property "Package" "QFN-28 Silicon Labs"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5933,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5943,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CP2102N-A01-GQFN28/Silicon+Labs/view-part/?ref=eda"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5953,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5963,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5973,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CP2102N-A01-GQFN28/Silicon+Labs/view-part/?ref=snap"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5983,7 @@
 			)
 		)
 		(property "MP" "CP2102N-A01-GQFN28"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5993,7 @@
 			)
 		)
 		(property "Description_1" "\nUSB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)\n"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6003,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +6013,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SILICON LABS"
-			(at 240.03 60.96 0)
+			(at 101.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +6023,7 @@
 			)
 		)
 		(property "Purpose" "USB-to-UART, USB2.0 full speed, data rate up to 3M baud"
-			(at 239.776 97.536 0)
+			(at 101.346 188.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6128,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 105.41 0)
+		(at 193.04 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6090,7 +6136,7 @@
 		(dnp no)
 		(uuid "b9c528d2-098b-4847-af8e-77fe47a82c41")
 		(property "Reference" "C21"
-			(at 46.99 104.1399 0)
+			(at 196.85 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6145,7 @@
 			)
 		)
 		(property "Value" "22uF{slash}10V{20%}"
-			(at 46.99 106.6799 0)
+			(at 196.85 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6154,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 44.1452 109.22 0)
+			(at 194.0052 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 105.41 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6172,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 105.41 0)
+			(at 193.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6181,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 43.18 114.3 0)
+			(at 193.04 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6205,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 62.23 0)
+		(at 19.05 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6168,7 +6214,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9fe1e43-5629-4a82-8da4-7337b1ced7ba")
 		(property "Reference" "R2"
-			(at 26.67 60.9599 0)
+			(at 21.59 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6223,7 @@
 			)
 		)
 		(property "Value" "2K(5%)"
-			(at 26.67 63.4999 0)
+			(at 21.59 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 22.352 62.23 90)
+			(at 17.272 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 62.23 0)
+			(at 19.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6250,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 62.23 0)
+			(at 19.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6259,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 24.13 62.23 0)
+			(at 19.05 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6283,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 78.74 43.18 90)
+		(at 63.5 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6245,7 +6291,7 @@
 		(dnp no)
 		(uuid "bc838c8e-c86f-467e-a53e-87b22e041d7b")
 		(property "Reference" "D4"
-			(at 81.28 41.9099 90)
+			(at 66.04 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6300,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 81.28 44.4499 90)
+			(at 66.04 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 78.74 43.18 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 43.18 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6327,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 78.74 43.18 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,8 +6335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "ESD, TVS Diode, 5V"
-			(at 77.978 48.514 90)
+		(property "Purpose" "ESD, TVS Diode"
+			(at 63.5 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6360,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 57.15 0)
+		(at 29.21 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6323,25 +6369,23 @@
 		(fields_autoplaced yes)
 		(uuid "bd2edd5c-027d-435a-bf84-fa5896b804cf")
 		(property "Reference" "R22"
-			(at 99.06 55.8799 0)
+			(at 29.21 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10K(5%)"
-			(at 99.06 58.4199 0)
+			(at 29.21 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 94.742 57.15 90)
+			(at 29.21 187.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 57.15 0)
+			(at 29.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6403,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 57.15 0)
+			(at 29.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6412,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 96.52 57.15 0)
+			(at 29.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6436,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:MMSS8050-H-TP")
-		(at 54.61 76.2 0)
+		(at 45.72 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6401,7 +6445,7 @@
 		(fields_autoplaced yes)
 		(uuid "be93fdf7-fc2c-4aa6-aa35-f3853efeec10")
 		(property "Reference" "Q1"
-			(at 59.69 74.9299 0)
+			(at 50.8 171.4499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6410,7 +6454,7 @@
 			)
 		)
 		(property "Value" "MMSS8050-H-TP"
-			(at 59.69 77.4699 0)
+			(at 50.8 173.9899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6419,7 +6463,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 59.69 71.12 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6429,7 +6473,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 59.69 68.58 0)
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6439,7 +6483,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 25V 1.5A SOT23"
-			(at 59.69 50.8 0)
+			(at 50.8 147.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6449,7 +6493,7 @@
 			)
 		)
 		(property "MPN" "MMSS8050-H-TP"
-			(at 59.69 63.5 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6459,7 +6503,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 59.69 60.96 0)
+			(at 50.8 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6469,7 +6513,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 59.69 58.42 0)
+			(at 50.8 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6479,7 +6523,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 59.69 55.88 0)
+			(at 50.8 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6489,7 +6533,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945"
-			(at 59.69 53.34 0)
+			(at 50.8 149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6499,7 +6543,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 59.69 48.26 0)
+			(at 50.8 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6509,7 +6553,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 59.69 45.72 0)
+			(at 50.8 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6537,34 +6581,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 181.61 0)
+		(lib_id "Device:R")
+		(at 144.78 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c6d23e67-81cd-4ffd-bc30-865d3cbc150f")
-		(property "Reference" "C15"
-			(at 154.94 180.3399 0)
+		(fields_autoplaced yes)
+		(uuid "c55a4d96-8856-4a18-b4e6-078236f07ab9")
+		(property "Reference" "R26"
+			(at 147.32 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF/50V{10%}(NC)"
-			(at 154.94 182.8799 0)
+		(property "Value" "47.5K(5%)"
+			(at 147.32 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 152.0952 185.42 0)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 146.558 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6618,84 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 181.61 0)
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor (Chip Resistors)"
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 144.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "393244a6-fda4-4e3e-8ed7-ebb9fea99840")
+		)
+		(pin "2"
+			(uuid "c684ed47-a189-42ce-a31f-5931b7604e25")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6d23e67-81cd-4ffd-bc30-865d3cbc150f")
+		(property "Reference" "C15"
+			(at 143.51 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/50V{10%}(NC)"
+			(at 143.51 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 140.6652 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6704,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 181.61 0)
+			(at 139.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6713,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 151.13 187.96 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,33 +6736,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 128.27 157.48 0)
+		(lib_id "Device:R")
+		(at 153.67 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d00d001d-9398-48e5-a2e8-3f942b198357")
-		(property "Reference" "SW2"
-			(at 128.27 149.86 0)
+		(uuid "ccf0be78-32df-4c8a-90cd-c8193fc52309")
+		(property "Reference" "R25"
+			(at 153.67 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 128.27 152.4 0)
+		(property "Value" "22.1K(5%)"
+			(at 153.67 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
-			(at 128.27 152.4 0)
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(at 153.67 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 152.4 0)
+			(at 153.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,8 +6779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 157.48 0)
+		(property "Description" "Resistor (Chip Resistors)"
+			(at 153.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6789,82 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 128.27 157.48 0)
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00720ee3-1286-440c-9ed0-4d7099224527")
+		)
+		(pin "2"
+			(uuid "7bcbe126-6382-4844-8045-2c9d456f6898")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 139.7 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d00d001d-9398-48e5-a2e8-3f942b198357")
+		(property "Reference" "SW2"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 139.7 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 163.83 0)
+		(at 111.76 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6699,7 +6896,7 @@
 		(dnp no)
 		(uuid "daf52460-e44b-492f-8cd5-f7dc9cd021bd")
 		(property "Reference" "C14"
-			(at 60.96 162.5599 0)
+			(at 115.57 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6905,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V{10%}"
-			(at 60.96 165.0999 0)
+			(at 115.57 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 58.1152 167.64 0)
+			(at 112.7252 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 163.83 0)
+			(at 111.76 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6932,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 163.83 0)
+			(at 111.76 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +6941,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 57.15 170.18 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6965,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 62.23 34.29 90)
+		(at 31.75 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6776,7 +6973,7 @@
 		(dnp no)
 		(uuid "dbc1c13a-6380-4f48-b92f-fdf05d52fd90")
 		(property "Reference" "D5"
-			(at 64.77 33.0199 90)
+			(at 34.29 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6982,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 64.77 35.5599 90)
+			(at 34.29 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6991,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 62.23 34.29 0)
+			(at 31.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 34.29 0)
+			(at 31.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +7009,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 62.23 34.29 0)
+			(at 31.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,8 +7017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "ESD, TVS Diode, 5V"
-			(at 61.976 39.878 90)
+		(property "Purpose" "ESD, TVS Diode"
+			(at 31.75 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6845,7 +7042,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 55.88 138.43 0)
+		(at 55.88 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6853,7 +7050,7 @@
 		(dnp no)
 		(uuid "ddc76187-a4b0-4e81-a88c-710a4bd49536")
 		(property "Reference" "U2"
-			(at 55.88 132.08 0)
+			(at 55.88 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7058,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 55.88 134.62 0)
+			(at 55.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7066,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 55.88 133.35 0)
+			(at 55.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7075,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 58.42 144.78 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7084,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 55.88 138.43 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,8 +7092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "Power IC : Regulate input voltage to a stable 3.3 output"
-			(at 54.61 148.59 0)
+		(property "Purpose" ""
+			(at 54.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +7120,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 91.44 27.94 90)
+		(at 46.99 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6931,7 +7128,7 @@
 		(dnp no)
 		(uuid "ee208d3c-e24e-429f-a72b-5397de330548")
 		(property "Reference" "D6"
-			(at 93.98 26.6699 90)
+			(at 49.53 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +7137,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 93.98 29.2099 90)
+			(at 49.53 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +7146,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 91.44 27.94 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +7155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 27.94 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7164,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 91.44 27.94 0)
+			(at 46.99 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,8 +7172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "ESD, TVS Diode, 5V"
-			(at 91.694 33.782 90)
+		(property "Purpose" "ESD, TVS Diode"
+			(at 46.99 133.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +7197,7 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:MMSS8050-H-TP")
-		(at 77.47 85.09 0)
+		(at 45.72 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7009,7 +7206,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5f1a2b3-1a56-49d1-8e85-f90534705ad3")
 		(property "Reference" "Q2"
-			(at 82.55 83.8199 0)
+			(at 50.8 184.1499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7018,7 +7215,7 @@
 			)
 		)
 		(property "Value" "MMSS8050-H-TP"
-			(at 82.55 86.3599 0)
+			(at 50.8 186.6899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7027,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 82.55 80.01 0)
+			(at 50.8 180.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7037,7 +7234,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 82.55 77.47 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7047,7 +7244,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 25V 1.5A SOT23"
-			(at 82.55 59.69 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7057,7 +7254,7 @@
 			)
 		)
 		(property "MPN" "MMSS8050-H-TP"
-			(at 82.55 72.39 0)
+			(at 50.8 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7067,7 +7264,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 82.55 69.85 0)
+			(at 50.8 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7077,7 +7274,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 82.55 67.31 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7087,7 +7284,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 82.55 64.77 0)
+			(at 50.8 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7097,7 +7294,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945"
-			(at 82.55 62.23 0)
+			(at 50.8 162.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7107,7 +7304,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 82.55 57.15 0)
+			(at 50.8 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7117,7 +7314,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 82.55 54.61 0)
+			(at 50.8 154.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7146,7 +7343,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 180.34 0)
+		(at 129.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7154,7 +7351,7 @@
 		(dnp no)
 		(uuid "fec6ee9f-0f7a-4c64-875a-8e47b2423299")
 		(property "Reference" "C19"
-			(at 62.23 179.0699 0)
+			(at 133.35 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7360,7 @@
 			)
 		)
 		(property "Value" "0.1uF/50V{10%}"
-			(at 62.23 181.6099 0)
+			(at 138.938 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7369,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
-			(at 59.3852 184.15 0)
+			(at 130.5052 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 180.34 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7387,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 180.34 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7396,7 @@
 			)
 		)
 		(property "Purpose" "Decoupling Capacitor"
-			(at 58.42 186.69 0)
+			(at 125.476 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
