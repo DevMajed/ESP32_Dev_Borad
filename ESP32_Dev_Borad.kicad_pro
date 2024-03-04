@@ -245,7 +245,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 6,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -260,6 +260,57 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 6,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 6,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 6,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -267,7 +318,196 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/RI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RTS"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/RXD"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/RXD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SENSOR_VN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SENSOR_VP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/TXD"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "TXD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CLK"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO35"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO34"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO33"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO32"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO27"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO26"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO25"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO23"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO22"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO21"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO19"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO18"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO17"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO16"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO15"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO14"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO13"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO12"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO5"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO4"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO2"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VDD33"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/EXT_5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CTS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/DSR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/DTR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CDC"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -334,11 +574,143 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose",
+          "name": "Purpose",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
