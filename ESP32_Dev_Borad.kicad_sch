@@ -18,22 +18,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -17.8368 31.0839 0)
+			(property "Reference" "U1"
+				(at 0 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "CP2102N-A01-GQFN28"
-				(at -17.8088 -31.041 0)
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "CP2102N-A01-GQFN28:QFN50P500X500X80-29N"
@@ -182,6 +180,14 @@
 					)
 					(justify bottom)
 					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at -0.508 -40.894 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "CP2102N-A01-GQFN28_0_0"
@@ -395,24 +401,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "RI/CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name "GPIO.6"
@@ -549,24 +537,6 @@
 						)
 					)
 					(number "27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -22.86 5.08 0)
-					(length 5.08)
-					(name "DTR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -711,6 +681,44 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CP2102N-A01-GQFN28_1_0"
+				(pin input line
+					(at -22.86 -17.78 0)
+					(length 5.08)
+					(name "RI/CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 5.08)
+					(name "DTR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4151,6 +4159,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 138.43 116.84)
@@ -4189,6 +4293,12 @@
 		(uuid "37b29944-1455-40e9-be8e-b7a30d88ac59")
 	)
 	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a303906-a2eb-46b5-a9b8-8add3019e23d")
+	)
+	(junction
 		(at 21.59 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4207,6 +4317,12 @@
 		(uuid "5476eb17-ffe9-47f0-8b14-2f8933e32935")
 	)
 	(junction
+		(at 236.22 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "589fdfdd-737d-4000-99d8-affc1f244894")
+	)
+	(junction
 		(at 251.46 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4217,6 +4333,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "630ba3d6-bcc7-4f8d-8c8e-ba11c1b1259a")
+	)
+	(junction
+		(at 134.62 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "827a59f1-6826-4a4c-aca0-07896b143f65")
 	)
 	(junction
 		(at 129.54 124.46)
@@ -4321,10 +4443,6 @@
 		(uuid "c248e6d3-5b6f-40b9-8d3d-f126e913a617")
 	)
 	(no_connect
-		(at 127 177.8)
-		(uuid "c2786ca1-e74a-4158-a8dd-1c3a74279c3c")
-	)
-	(no_connect
 		(at 127 147.32)
 		(uuid "d8689b1b-60ee-48c3-8890-7d0196523be3")
 	)
@@ -4358,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 139.7) (xy 81.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022e66eb-3d24-484e-b791-64fd99247153")
+	)
+	(wire
+		(pts
 			(xy 76.2 46.99) (xy 76.2 60.96)
 		)
 		(stroke
@@ -4378,7 +4506,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 127) (xy 144.78 127)
+			(xy 127 127) (xy 134.62 127)
 		)
 		(stroke
 			(width 0)
@@ -4425,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "149b181e-9578-47b8-9ee2-ddbd7502aab5")
+	)
+	(wire
+		(pts
+			(xy 46.99 30.48) (xy 50.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e000ab-4043-4ad7-b2a1-ecb2e2e5fbd3")
 	)
 	(wire
 		(pts
@@ -4508,7 +4646,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 165.1) (xy 50.8 165.1)
+			(xy 62.23 170.18) (xy 81.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ca758-f7db-4fce-bfca-9101cf0709b4")
+	)
+	(wire
+		(pts
+			(xy 44.45 166.37) (xy 46.99 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4525,6 +4673,16 @@
 			(type default)
 		)
 		(uuid "289897a5-7189-42af-9a55-842907ac9531")
+	)
+	(wire
+		(pts
+			(xy 62.23 149.86) (xy 81.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae30f9f-93de-46b5-af34-32fecaad29a0")
 	)
 	(wire
 		(pts
@@ -4598,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 180.34) (xy 21.59 180.34)
+			(xy 44.45 180.34) (xy 21.59 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4648,7 +4806,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 168.91) (xy 45.72 165.1)
+			(xy 44.45 168.91) (xy 44.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4688,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 137.16) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597bbbbf-184e-47fa-8652-8d3c61afaf26")
+	)
+	(wire
+		(pts
 			(xy 158.75 38.1) (xy 158.75 50.8)
 		)
 		(stroke
@@ -4698,7 +4866,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 179.07) (xy 45.72 180.34)
+			(xy 44.45 179.07) (xy 44.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4708,7 +4876,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 193.04) (xy 45.72 196.85)
+			(xy 62.23 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600fc51c-17c4-4f0d-8dcd-e61c26d239fd")
+	)
+	(wire
+		(pts
+			(xy 44.45 193.04) (xy 44.45 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4775,6 +4953,16 @@
 			(type default)
 		)
 		(uuid "70950ca6-6314-4d46-84e2-d4405b5a30df")
+	)
+	(wire
+		(pts
+			(xy 77.47 134.62) (xy 81.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c25676-8c21-41db-9c09-3e1d32cfdff3")
 	)
 	(wire
 		(pts
@@ -4848,13 +5036,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 30.48) (xy 50.8 30.48)
+			(xy 40.64 30.48) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d2f0296-c64e-40f4-9d1d-3c3c0c344e18")
+	)
+	(wire
+		(pts
+			(xy 62.23 144.78) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc62495-da80-4535-bf78-cf7e3b24640a")
 	)
 	(wire
 		(pts
@@ -4908,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 93.98) (xy 212.09 93.98)
+			(xy 254 93.98) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4985,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "a2608962-9ef3-44de-8817-d4fd70850525")
+	)
+	(wire
+		(pts
+			(xy 77.47 147.32) (xy 81.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fb2db0-3c91-4c33-9b83-14c08199effe")
 	)
 	(wire
 		(pts
@@ -5068,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 187.96) (xy 38.1 187.96)
+			(xy 30.48 187.96) (xy 36.83 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5118,7 +5326,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 196.85) (xy 50.8 196.85)
+			(xy 134.62 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e9bfec-cec5-4166-8008-a9c33654a3fa")
+	)
+	(wire
+		(pts
+			(xy 44.45 194.31) (xy 46.99 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5218,6 +5436,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41d3663-edb1-4056-8d16-2de560ce3f3f")
+	)
+	(wire
+		(pts
 			(xy 254 157.48) (xy 252.73 157.48)
 		)
 		(stroke
@@ -5268,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 181.61) (xy 45.72 181.61)
+			(xy 20.32 181.61) (xy 44.45 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5318,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 182.88) (xy 45.72 181.61)
+			(xy 44.45 182.88) (xy 44.45 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5448,7 +5676,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 173.99) (xy 38.1 173.99)
+			(xy 30.48 173.99) (xy 36.83 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5489,6 +5717,18 @@
 			(color 106 244 252 0.14)
 		)
 		(uuid 2b2e4d16-3a6c-4b21-93f5-da1cc01914cd)
+	)
+	(rectangle
+		(start 54.61 181.102)
+		(end 77.47 193.802)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56e7980b-6393-4e76-8e2a-0a1e674ce546)
 	)
 	(rectangle
 		(start 177.8 88.9)
@@ -5556,6 +5796,16 @@
 			(justify left top)
 		)
 		(uuid "11d17198-1639-4bd7-8d7e-7c1ceedaeb46")
+	)
+	(text "Auto Program\nDRT RTS --> EN IO0\n1	1		1	1\n0	0		1	1\n1	0		0	1\n0	1		1	0"
+		(exclude_from_sim no)
+		(at 66.04 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11f8d1b5-7913-44fc-bf56-8cc0ab23e4c0")
 	)
 	(text "Switch Buttons"
 		(exclude_from_sim no)
@@ -5743,7 +5993,7 @@
 		(uuid "258e7435-b868-41d1-9e6c-738cb5fbb05e")
 	)
 	(label "RTS"
-		(at 81.28 139.7 180)
+		(at 77.47 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5919,7 +6169,7 @@
 		(uuid "480642fd-74e4-4391-bb48-7152a245b829")
 	)
 	(label "DSR"
-		(at 81.28 144.78 180)
+		(at 77.47 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5930,7 +6180,7 @@
 		(uuid "4c06a0cf-95e8-4f52-a65d-a5d725503612")
 	)
 	(label "CTS"
-		(at 81.28 142.24 180)
+		(at 77.47 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6007,7 +6257,7 @@
 		(uuid "5c19cbfc-2bff-4894-a831-f5fb1532fbf9")
 	)
 	(label "TXD"
-		(at 81.28 137.16 180)
+		(at 77.47 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6095,7 +6345,7 @@
 		(uuid "6a427821-3c87-43cd-9872-c8a80b73f79d")
 	)
 	(label "RI"
-		(at 81.28 170.18 180)
+		(at 80.01 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6117,7 +6367,7 @@
 		(uuid "6ca8da6b-a113-4551-86db-f195349a43e3")
 	)
 	(label "RXD"
-		(at 81.28 134.62 180)
+		(at 77.47 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6182,8 +6432,8 @@
 		)
 		(uuid "7a4e7210-1a94-4868-877b-2ea8f15ed867")
 	)
-	(label "CDC"
-		(at 81.28 149.86 180)
+	(label "DCD"
+		(at 77.47 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6326,7 +6576,7 @@
 		(uuid "add7c223-12db-4417-8630-ecf95c2f5125")
 	)
 	(label "IO0"
-		(at 50.8 196.85 0)
+		(at 46.99 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6656,7 +6906,7 @@
 		(uuid "e83f9ddc-02c5-46ee-b2c0-7f098784abce")
 	)
 	(label "DTR"
-		(at 81.28 147.32 180)
+		(at 77.47 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6689,7 +6939,7 @@
 		(uuid "f7102252-98b4-4e48-9308-b9656f263f58")
 	)
 	(label "EN"
-		(at 50.8 165.1 0)
+		(at 46.99 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6722,7 +6972,7 @@
 			(at 139.7 194.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6788,7 +7038,7 @@
 			(at 25.4 56.1974 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -6844,6 +7094,152 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07826349-549a-44a2-a0ba-7ecf9255eeef")
+		(property "Reference" "#FLG05"
+			(at 60.325 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 58.166 144.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95dda92a-c2d4-4947-b09c-a47c40dd419c")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d767f83-de61-43a0-a072-4b792016b814")
+		(property "Reference" "#FLG06"
+			(at 60.325 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 58.166 149.86 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "067a3018-2b48-4f3b-9a87-470bed61dbb4")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 60.96 0)
 		(unit 1)
@@ -6866,7 +7262,7 @@
 			(at 58.42 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6930,7 +7326,7 @@
 			(at 238.76 20.828 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7056,7 +7452,7 @@
 			(at 146.05 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7111,6 +7507,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f024a0d-a93f-447e-a3e4-99d28e878ab5")
+		(property "Reference" "#FLG04"
+			(at 60.325 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 58.166 142.24 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2a8e5e1-b596-4547-9e9d-593cfed087e2")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 133.35 0)
 		(unit 1)
@@ -7133,7 +7594,7 @@
 			(at 33.02 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7198,7 +7659,7 @@
 			(at 44.45 44.4499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -7276,7 +7737,7 @@
 			(at 129.54 194.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7341,7 +7802,7 @@
 			(at 215.9 105.4099 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -7418,7 +7879,7 @@
 			(at 114.3 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7473,6 +7934,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f56dcc3-5e05-4afc-a06d-e1693b699306")
+		(property "Reference" "#FLG07"
+			(at 60.325 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 58.166 170.18 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 62.23 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4432069b-66ce-44c3-9330-ba3fbf8368b4")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 25.4 90)
 		(unit 1)
@@ -7495,7 +8029,7 @@
 			(at 270.51 25.3999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -7560,7 +8094,7 @@
 			(at 213.36 20.828 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7687,7 +8221,7 @@
 			(at 26.67 146.05 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7763,7 +8297,7 @@
 			(at 26.67 170.18 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7839,7 +8373,7 @@
 			(at 80.01 44.4499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -7917,7 +8451,7 @@
 			(at 144.78 147.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7983,7 +8517,7 @@
 			(at 40.64 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8048,7 +8582,7 @@
 			(at 138.176 62.738 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -8126,7 +8660,7 @@
 			(at 142.24 175.2599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -8203,7 +8737,7 @@
 			(at 147.9181 113.0169 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -8282,7 +8816,7 @@
 			(at 193.04 137.1599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -8360,7 +8894,7 @@
 			(at 252.73 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8426,7 +8960,7 @@
 			(at 39.37 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8470,6 +9004,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "593310a1-e1b0-4ee0-8b5a-a96e8c644eee")
+		(property "Reference" "#FLG02"
+			(at 46.99 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 26.416 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08bcdd7b-f95a-4da6-b636-670d68c0fa4a")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 26.67 160.02 90)
 		(unit 1)
@@ -8491,7 +9090,7 @@
 			(at 26.67 156.21 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8566,7 +9165,7 @@
 			(at 20.32 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8655,7 +9254,7 @@
 			(at 138.43 124.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8720,7 +9319,7 @@
 			(at 42.926 132.588 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -8799,7 +9398,7 @@
 			(at 45.72 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8865,7 +9464,7 @@
 			(at 190.5 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8931,7 +9530,7 @@
 			(at 21.59 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8996,7 +9595,7 @@
 			(at 36.576 132.588 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -9074,7 +9673,7 @@
 			(at 194.31 149.8599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -9151,7 +9750,7 @@
 			(at 69.85 158.75 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9228,7 +9827,7 @@
 			(at 101.6 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9294,7 +9893,7 @@
 			(at 256.1941 97.79 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -9526,6 +10125,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 236.22 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4905315-003c-4b99-b661-30b48c7b48f8")
+		(property "Reference" "#FLG01"
+			(at 236.22 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 236.22 89.916 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a6b92f-8466-4ef9-b011-d07b37772e3c")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 41.91 107.95 180)
 		(unit 1)
@@ -9546,7 +10210,7 @@
 			(at 41.91 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9621,7 +10285,7 @@
 			(at 104.14 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9900,7 +10564,7 @@
 			(at 76.2 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -9965,7 +10629,7 @@
 			(at 194.31 105.4099 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10044,7 +10708,7 @@
 			(at 24.13 44.4499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10121,7 +10785,7 @@
 			(at 26.67 184.15 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10177,16 +10841,15 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:MMSS8050-H-TP")
-		(at 43.18 173.99 0)
+		(at 41.91 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be93fdf7-fc2c-4aa6-aa35-f3853efeec10")
 		(property "Reference" "Q1"
-			(at 48.26 172.7199 0)
+			(at 46.99 172.7199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10195,16 +10858,17 @@
 			)
 		)
 		(property "Value" "MMSS8050-H-TP"
-			(at 48.26 175.2599 0)
+			(at 45.212 175.006 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 48.26 168.91 0)
+			(at 46.99 168.91 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10214,7 +10878,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 48.26 166.37 0)
+			(at 46.99 166.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10224,7 +10888,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 25V 1.5A SOT23"
-			(at 48.26 148.59 0)
+			(at 46.99 148.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10234,7 +10898,7 @@
 			)
 		)
 		(property "MPN" "MMSS8050-H-TP"
-			(at 48.26 161.29 0)
+			(at 46.99 161.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10244,7 +10908,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 48.26 158.75 0)
+			(at 46.99 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10254,7 +10918,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 48.26 156.21 0)
+			(at 46.99 156.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10264,7 +10928,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 48.26 153.67 0)
+			(at 46.99 153.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10274,7 +10938,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945"
-			(at 48.26 151.13 0)
+			(at 46.99 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10284,7 +10948,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 48.26 146.05 0)
+			(at 46.99 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10294,7 +10958,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 48.26 143.51 0)
+			(at 46.99 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10344,7 +11008,7 @@
 			(at 147.32 137.1599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -10421,7 +11085,7 @@
 			(at 153.67 123.19 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10497,7 +11161,7 @@
 			(at 106.426 62.738 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10573,7 +11237,7 @@
 			(at 58.42 26.67 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10653,7 +11317,7 @@
 			(at 133.35 66.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10697,6 +11361,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1164b3f-c597-4018-b9de-ca725f5eb802")
+		(property "Reference" "#FLG03"
+			(at 134.62 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 131.064 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c05559aa-0590-4251-8cc0-53b2adf30180")
+		)
+		(instances
+			(project "ESP32_Dev_Borad"
+				(path "/d39d204b-0117-486c-9a7f-edbc696bf330"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 157.48 0)
 		(unit 1)
@@ -10719,7 +11448,7 @@
 			(at 190.5 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10784,7 +11513,7 @@
 			(at 30.226 132.588 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -10842,16 +11571,15 @@
 	)
 	(symbol
 		(lib_id "dk_Transistors-Bipolar-BJT-Single:MMSS8050-H-TP")
-		(at 43.18 187.96 0)
+		(at 41.91 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5f1a2b3-1a56-49d1-8e85-f90534705ad3")
 		(property "Reference" "Q2"
-			(at 48.26 186.6899 0)
+			(at 46.99 186.6899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10860,16 +11588,17 @@
 			)
 		)
 		(property "Value" "MMSS8050-H-TP"
-			(at 48.26 189.2299 0)
+			(at 45.466 189.23 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:SOT-23-3"
-			(at 48.26 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10879,7 +11608,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 48.26 180.34 0)
+			(at 46.99 180.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10889,7 +11618,7 @@
 			)
 		)
 		(property "Description" "TRANS NPN 25V 1.5A SOT23"
-			(at 48.26 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10899,7 +11628,7 @@
 			)
 		)
 		(property "MPN" "MMSS8050-H-TP"
-			(at 48.26 175.26 0)
+			(at 46.99 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10909,7 +11638,7 @@
 			)
 		)
 		(property "Category" "Discrete Semiconductor Products"
-			(at 48.26 172.72 0)
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10919,7 +11648,7 @@
 			)
 		)
 		(property "Family" "Transistors - Bipolar (BJT) - Single"
-			(at 48.26 170.18 0)
+			(at 46.99 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10929,7 +11658,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf"
-			(at 48.26 167.64 0)
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10939,7 +11668,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945"
-			(at 48.26 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10949,7 +11678,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 48.26 160.02 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10959,7 +11688,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 48.26 157.48 0)
+			(at 46.99 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11009,7 +11738,7 @@
 			(at 19.05 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11074,7 +11803,7 @@
 			(at 130.4063 112.9129 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
